@@ -46,49 +46,53 @@ const Footer = () => {
           </div>
         </div>
         
-        {/* Alternative Acquisition Options Card */}
-        <div className="mt-10 mb-10">
-          <Card className="bg-costa-blue/60 border-costa-coral shadow-lg backdrop-blur-sm">
+        {/* Two separate boxes for acquisition options and benefits */}
+        <div className="mt-10 mb-10 grid md:grid-cols-2 gap-6">
+          {/* Alternative Acquisition Options Card */}
+          <Card className="bg-costa-blue shadow-lg border-costa-coral">
             <CardContent className="p-6">
-              <div className="grid md:grid-cols-2 gap-8">
+              <div className="flex items-start mb-6">
+                <div className="flex-shrink-0 bg-white p-2 rounded shadow-md mr-4">
+                  <img 
+                    src="https://companieslogo.com/img/orig/GDDY-c88e1201.png?t=1633218319"
+                    alt="GoDaddy Logo" 
+                    className="h-8 w-auto"
+                  />
+                </div>
                 <div>
-                  <h3 className="text-xl font-bold mb-4 text-white">Alternative Acquisition Options</h3>
-                  <p className="text-white mb-4">
+                  <h3 className="text-xl font-bold mb-2 text-white">Alternative Acquisition Options</h3>
+                  <p className="text-white font-medium mb-4">
                     If you'd like to acquire this domain through GoDaddy or another platform, reach out to us, and we'll make it happen.
                   </p>
-                  
-                  <div className="flex items-center mt-4 mb-6">
-                    <div className="bg-white p-2 rounded mr-3">
-                      <img 
-                        src="https://companieslogo.com/img/orig/GDDY-c88e1201.png?t=1633218319"
-                        alt="GoDaddy Logo" 
-                        className="h-6"
-                      />
-                    </div>
-                    <span className="text-white text-sm italic">
-                      All trademarks, logos, and brand names are the property of their respective owners. 
-                      Use of these does not imply endorsement or affiliation.
-                    </span>
-                  </div>
+                  <p className="text-white/90 text-sm italic">
+                    All trademarks, logos, and brand names are the property of their respective owners. 
+                    Use of these does not imply endorsement or affiliation.
+                  </p>
                 </div>
-                
-                <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
-                  <div className="flex items-center p-3 bg-costa-blue/80 rounded-lg shadow-md">
-                    <Check className="mr-3 h-6 w-6 text-costa-coral flex-shrink-0" />
-                    <p className="text-white font-medium">Free transfer</p>
-                  </div>
-                  <div className="flex items-center p-3 bg-costa-blue/80 rounded-lg shadow-md">
-                    <ShieldCheck className="mr-3 h-6 w-6 text-costa-coral flex-shrink-0" />
-                    <p className="text-white font-medium">Free support</p>
-                  </div>
-                  <div className="flex items-center p-3 bg-costa-blue/80 rounded-lg shadow-md">
-                    <CreditCard className="mr-3 h-6 w-6 text-costa-coral flex-shrink-0" />
-                    <p className="text-white font-medium">Secure payments</p>
-                  </div>
-                  <div className="flex items-center p-3 bg-costa-blue/80 rounded-lg shadow-md">
-                    <Zap className="mr-3 h-6 w-6 text-costa-coral flex-shrink-0" />
-                    <p className="text-white font-medium">Fast delivery</p>
-                  </div>
+              </div>
+            </CardContent>
+          </Card>
+          
+          {/* Benefits Card */}
+          <Card className="bg-costa-blue shadow-lg border-costa-coral">
+            <CardContent className="p-6">
+              <h3 className="text-xl font-bold mb-4 text-white">Our Guarantees</h3>
+              <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
+                <div className="flex items-center p-3 bg-white/10 rounded-lg shadow-md border border-white/20">
+                  <Check className="mr-3 h-7 w-7 text-costa-coral bg-white/10 p-1 rounded-full flex-shrink-0" />
+                  <p className="text-white font-semibold">Free transfer</p>
+                </div>
+                <div className="flex items-center p-3 bg-white/10 rounded-lg shadow-md border border-white/20">
+                  <ShieldCheck className="mr-3 h-7 w-7 text-costa-coral bg-white/10 p-1 rounded-full flex-shrink-0" />
+                  <p className="text-white font-semibold">Free support</p>
+                </div>
+                <div className="flex items-center p-3 bg-white/10 rounded-lg shadow-md border border-white/20">
+                  <CreditCard className="mr-3 h-7 w-7 text-costa-coral bg-white/10 p-1 rounded-full flex-shrink-0" />
+                  <p className="text-white font-semibold">Secure payments</p>
+                </div>
+                <div className="flex items-center p-3 bg-white/10 rounded-lg shadow-md border border-white/20">
+                  <Zap className="mr-3 h-7 w-7 text-costa-coral bg-white/10 p-1 rounded-full flex-shrink-0" />
+                  <p className="text-white font-semibold">Fast delivery</p>
                 </div>
               </div>
             </CardContent>
