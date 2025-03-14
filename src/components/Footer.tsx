@@ -49,12 +49,12 @@ const Footer = () => {
         {/* Two separate boxes for acquisition options and benefits */}
         <div className="mt-10 mb-10 grid md:grid-cols-2 gap-6">
           {/* Alternative Acquisition Options Card */}
-          <Card className="bg-costa-blue shadow-lg border-costa-coral">
+          <Card className="bg-costa-blue shadow-lg border-2 border-gray-700">
             <CardContent className="p-6">
               <div className="flex items-start mb-6">
                 <div className="flex-shrink-0 bg-white p-2 rounded shadow-md mr-4">
                   <img 
-                    src="https://companieslogo.com/img/orig/GDDY-c88e1201.png?t=1633218319"
+                    src="/lovable-uploads/f3224bf9-0c45-4b33-9db3-8fae246b048e.png"
                     alt="GoDaddy Logo" 
                     className="h-8 w-auto"
                   />
@@ -74,7 +74,7 @@ const Footer = () => {
           </Card>
           
           {/* Benefits Card */}
-          <Card className="bg-costa-blue shadow-lg border-costa-coral">
+          <Card className="bg-costa-blue shadow-lg border-2 border-gray-700">
             <CardContent className="p-6">
               <h3 className="text-xl font-bold mb-4 text-white">Our Guarantees</h3>
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">

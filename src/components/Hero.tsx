@@ -13,12 +13,33 @@ const Hero = () => {
         <div className="flex flex-col items-center md:items-start mb-10 animate-fade-in">
           <Button 
             size="lg" 
-            className="bg-costa-blue hover:bg-costa-blue/90 text-white rounded-full shadow-lg mb-8"
+            className="bg-costa-blue hover:bg-costa-blue/90 text-white rounded-full shadow-lg mb-4"
           >
             <ShoppingCart className="mr-2 h-4 w-4" /> 
             Own CostaHouses.com for Just $435 Down
             <ExternalLink className="ml-2 h-4 w-4" />
           </Button>
+          
+          {/* Add the GoDaddy and Atom.com logos */}
+          <div className="flex items-center justify-center mb-8 bg-white/90 px-6 py-3 rounded-lg shadow-md">
+            <p className="text-gray-700 font-medium mr-4">Available on:</p>
+            <div className="flex items-center space-x-6">
+              <div className="flex items-center">
+                <img 
+                  src="/lovable-uploads/f3224bf9-0c45-4b33-9db3-8fae246b048e.png"
+                  alt="Atom.com Logo" 
+                  className="h-7 w-auto"
+                />
+              </div>
+              <div className="flex items-center">
+                <img 
+                  src="https://companieslogo.com/img/orig/GDDY-c88e1201.png?t=1633218319"
+                  alt="GoDaddy Logo" 
+                  className="h-7 w-auto"
+                />
+              </div>
+            </div>
+          </div>
           
           <h1 className="text-center md:text-left mb-6 font-bold text-costa-blue text-4xl md:text-5xl lg:text-6xl">
             Stand Out in the Real Estate Industry!
