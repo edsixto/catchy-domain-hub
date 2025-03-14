@@ -39,7 +39,10 @@ const SalesBox = () => {
         </div>
       </CardContent>
       <CardFooter>
-        <Button className="w-full bg-costa-blue hover:bg-costa-blue/90 text-white py-6 text-lg">
+        <Button 
+          className="w-full bg-costa-blue hover:bg-costa-blue/90 text-white py-6 text-lg"
+          onClick={() => window.open("https://www.atom.com/name/CostaHouses", "_blank")}
+        >
           <ShoppingCart className="mr-2 h-5 w-5" />
           Purchase Domain Now
           <ExternalLink className="ml-2 h-5 w-5" />

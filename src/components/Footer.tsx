@@ -11,7 +11,7 @@ const Footer = () => {
           <div>
             <h3 className="text-xl font-bold mb-4">CostaHouses.com</h3>
             <p className="text-white/80">
-              Premium domain name for coastal real estate businesses, available for purchase now.
+              This website is designed and built to showcase what your website could look like. Premium domain name for coastal real estate businesses, available for purchase now.
             </p>
           </div>
           
@@ -54,18 +54,22 @@ const Footer = () => {
               <div className="flex items-start mb-6">
                 <div className="flex-shrink-0 flex flex-col space-y-4">
                   <div className="bg-white p-2 rounded shadow-md">
-                    <img 
-                      src="/lovable-uploads/96ed968b-33ea-4b21-9f26-df356e71ee6d.png"
-                      alt="GoDaddy Logo" 
-                      className="h-8 w-auto"
-                    />
+                    <a href="https://www.atom.com/name/CostaHouses" target="_blank" rel="noopener noreferrer">
+                      <img 
+                        src="/lovable-uploads/96ed968b-33ea-4b21-9f26-df356e71ee6d.png"
+                        alt="GoDaddy Logo" 
+                        className="h-8 w-auto"
+                      />
+                    </a>
                   </div>
                   <div className="bg-white p-2 rounded shadow-md">
-                    <img 
-                      src="/lovable-uploads/562bfb97-b35a-45d6-8115-bb08ea2db704.png"
-                      alt="Escrow.com Logo" 
-                      className="h-8 w-auto"
-                    />
+                    <a href="https://www.atom.com/name/CostaHouses" target="_blank" rel="noopener noreferrer">
+                      <img 
+                        src="/lovable-uploads/562bfb97-b35a-45d6-8115-bb08ea2db704.png"
+                        alt="Escrow.com Logo" 
+                        className="h-8 w-auto"
+                      />
+                    </a>
                   </div>
                 </div>
                 <div className="ml-4">

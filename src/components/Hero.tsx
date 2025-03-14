@@ -16,6 +16,7 @@ const Hero = () => {
             <Button 
               size="lg" 
               className="bg-costa-blue hover:bg-costa-blue/90 text-white rounded-full shadow-lg mb-4 w-full"
+              onClick={() => window.open("https://www.atom.com/name/CostaHouses", "_blank")}
             >
               <ShoppingCart className="mr-2 h-4 w-4" /> 
               Own CostaHouses.com for Just $435 Down
@@ -23,7 +24,7 @@ const Hero = () => {
             </Button>
             
             <div className="flex items-center justify-center">
-              <p className="text-gray-700 font-medium mr-4">Available on:</p>
+              <p className="text-gray-700 font-medium mr-4">Buy Now:</p>
               <div className="flex items-center space-x-6">
                 {/* GoDaddy logo first */}
                 <div className="flex items-center">
@@ -79,7 +80,9 @@ const Hero = () => {
               />
               
               <div className="absolute top-4 right-4 bg-costa-coral text-white px-4 py-2 rounded-full font-bold shadow-lg rotate-12">
-                Domain For Sale
+                <a href="https://www.atom.com/name/CostaHouses" target="_blank" rel="noopener noreferrer" className="text-white no-underline">
+                  Domain For Sale
+                </a>
               </div>
             </div>
           </div>
