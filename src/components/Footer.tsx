@@ -62,7 +62,7 @@ const Footer = () => {
                   </div>
                   <div className="bg-white p-2 rounded shadow-md">
                     <img 
-                      src="/lovable-uploads/3b2a8d75-2a1f-4b9a-a5b0-b255febf06d5.png"
+                      src="/lovable-uploads/562bfb97-b35a-45d6-8115-bb08ea2db704.png"
                       alt="Escrow.com Logo" 
                       className="h-8 w-auto"
                     />

@@ -33,11 +33,19 @@ const Hero = () => {
                     className="h-7 w-auto"
                   />
                 </div>
-                {/* New Atom.com logo second */}
+                {/* Atom.com logo second */}
                 <div className="flex items-center">
                   <img 
                     src="/lovable-uploads/7d17975b-c4b0-4ef0-8951-bf95fc5ad258.png"
                     alt="Atom.com Logo" 
+                    className="h-7 w-auto"
+                  />
+                </div>
+                {/* New Escrow.com logo third */}
+                <div className="flex items-center">
+                  <img 
+                    src="/lovable-uploads/562bfb97-b35a-45d6-8115-bb08ea2db704.png"
+                    alt="Escrow.com Logo" 
                     className="h-7 w-auto"
                   />
                 </div>
