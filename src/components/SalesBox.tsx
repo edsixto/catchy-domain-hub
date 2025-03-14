@@ -9,20 +9,20 @@ const SalesBox = () => {
     <Card className="border-costa-blue/30 shadow-xl bg-gradient-to-br from-white to-costa-beige">
       <CardHeader className="pb-4">
         <CardTitle className="text-2xl md:text-3xl text-costa-blue">
-          CostaHouses.com is Available – Own It for Just $995 Down
+          CostaHouses.com is Available – Own It for Just $435 Down
         </CardTitle>
       </CardHeader>
       <CardContent className="space-y-4">
         <div className="flex items-start">
           <Check className="mr-3 h-5 w-5 text-costa-coral mt-1 flex-shrink-0" />
           <p className="text-gray-700 text-lg">
-            Finance the final 9 payments for just $1,000/month.
+            Finance the final 11 payments for just $435/month.
           </p>
         </div>
         <div className="flex items-start">
           <Check className="mr-3 h-5 w-5 text-costa-coral mt-1 flex-shrink-0" />
           <p className="text-gray-700 text-lg">
-            Or secure it with a one-time payment of $9,995.
+            Or secure it with a one-time payment of $4,995.
           </p>
         </div>
         <div className="flex items-start">

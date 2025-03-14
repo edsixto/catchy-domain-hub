@@ -36,26 +36,26 @@ const ContactSection = () => {
               </CardDescription>
             </CardHeader>
             <CardContent>
-              <form onSubmit={handleSubmit} className="space-y-4">
+              <form onSubmit={handleSubmit} className="space-y-4 opacity-70">
                 <div className="grid md:grid-cols-2 gap-4">
                   <div className="space-y-2">
                     <label htmlFor="name" className="text-sm font-medium text-gray-700">
                       Your Name
                     </label>
-                    <Input id="name" placeholder="John Smith" required />
+                    <Input id="name" placeholder="John Smith" disabled />
                   </div>
                   <div className="space-y-2">
                     <label htmlFor="email" className="text-sm font-medium text-gray-700">
                       Email Address
                     </label>
-                    <Input id="email" type="email" placeholder="john@example.com" required />
+                    <Input id="email" type="email" placeholder="john@example.com" disabled />
                   </div>
                 </div>
                 <div className="space-y-2">
                   <label htmlFor="subject" className="text-sm font-medium text-gray-700">
                     Subject
                   </label>
-                  <Input id="subject" placeholder="I'm interested in CostaHouses.com" required />
+                  <Input id="subject" placeholder="I'm interested in CostaHouses.com" disabled />
                 </div>
                 <div className="space-y-2">
                   <label htmlFor="message" className="text-sm font-medium text-gray-700">
@@ -65,7 +65,7 @@ const ContactSection = () => {
                     id="message" 
                     placeholder="Please provide me with more information about purchasing this domain..." 
                     rows={5}
-                    required
+                    disabled
                   />
                 </div>
               </form>
@@ -75,6 +75,7 @@ const ContactSection = () => {
                 type="submit" 
                 onClick={handleSubmit}
                 className="w-full bg-costa-blue hover:bg-costa-blue/90 text-white"
+                disabled
               >
                 Send Message
               </Button>

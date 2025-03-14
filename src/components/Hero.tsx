@@ -16,7 +16,7 @@ const Hero = () => {
             className="bg-costa-blue hover:bg-costa-blue/90 text-white rounded-full shadow-lg mb-8"
           >
             <ShoppingCart className="mr-2 h-4 w-4" /> 
-            Own CostaHouses.com for Just $995 Down
+            Own CostaHouses.com for Just $435 Down
             <ExternalLink className="ml-2 h-4 w-4" />
           </Button>
           
