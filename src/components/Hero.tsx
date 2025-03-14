@@ -24,7 +24,6 @@ const Hero = () => {
             </Button>
             
             <div className="flex items-center justify-center">
-              <p className="text-gray-700 font-medium mr-4">Buy Now:</p>
               <div className="flex items-center space-x-6">
                 {/* GoDaddy logo first */}
                 <div className="flex items-center">
