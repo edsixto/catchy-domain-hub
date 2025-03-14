@@ -11,32 +11,36 @@ const Hero = () => {
                       bg-cover bg-center opacity-10 z-0"></div>
       <div className="container mx-auto px-4 relative z-10">
         <div className="flex flex-col items-center md:items-start mb-10 animate-fade-in">
-          <Button 
-            size="lg" 
-            className="bg-costa-blue hover:bg-costa-blue/90 text-white rounded-full shadow-lg mb-4"
-          >
-            <ShoppingCart className="mr-2 h-4 w-4" /> 
-            Own CostaHouses.com for Just $435 Down
-            <ExternalLink className="ml-2 h-4 w-4" />
-          </Button>
-          
-          {/* Add the GoDaddy and Atom.com logos */}
-          <div className="flex items-center justify-center mb-8 bg-white/90 px-6 py-3 rounded-lg shadow-md">
-            <p className="text-gray-700 font-medium mr-4">Available on:</p>
-            <div className="flex items-center space-x-6">
-              <div className="flex items-center">
-                <img 
-                  src="/lovable-uploads/f3224bf9-0c45-4b33-9db3-8fae246b048e.png"
-                  alt="Atom.com Logo" 
-                  className="h-7 w-auto"
-                />
-              </div>
-              <div className="flex items-center">
-                <img 
-                  src="/lovable-uploads/96ed968b-33ea-4b21-9f26-df356e71ee6d.png"
-                  alt="GoDaddy Logo" 
-                  className="h-7 w-auto"
-                />
+          {/* Combined button and logos as a single element */}
+          <div className="bg-white/95 rounded-lg shadow-lg p-4 mb-8">
+            <Button 
+              size="lg" 
+              className="bg-costa-blue hover:bg-costa-blue/90 text-white rounded-full shadow-lg mb-4 w-full"
+            >
+              <ShoppingCart className="mr-2 h-4 w-4" /> 
+              Own CostaHouses.com for Just $435 Down
+              <ExternalLink className="ml-2 h-4 w-4" />
+            </Button>
+            
+            <div className="flex items-center justify-center">
+              <p className="text-gray-700 font-medium mr-4">Available on:</p>
+              <div className="flex items-center space-x-6">
+                {/* GoDaddy logo first */}
+                <div className="flex items-center">
+                  <img 
+                    src="/lovable-uploads/96ed968b-33ea-4b21-9f26-df356e71ee6d.png"
+                    alt="GoDaddy Logo" 
+                    className="h-7 w-auto"
+                  />
+                </div>
+                {/* New Atom.com logo second */}
+                <div className="flex items-center">
+                  <img 
+                    src="/lovable-uploads/7d17975b-c4b0-4ef0-8951-bf95fc5ad258.png"
+                    alt="Atom.com Logo" 
+                    className="h-7 w-auto"
+                  />
+                </div>
               </div>
             </div>
           </div>
