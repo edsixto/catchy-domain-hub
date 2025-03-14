@@ -1,5 +1,7 @@
 
 import React from 'react';
+import { Check, ShieldCheck, CreditCard, Zap } from 'lucide-react';
+import { Card, CardContent } from "@/components/ui/card";
 
 const Footer = () => {
   return (
@@ -42,6 +44,53 @@ const Footer = () => {
               </li>
             </ul>
           </div>
+        </div>
+        
+        {/* Alternative Acquisition Options Card */}
+        <div className="mt-10 mb-10">
+          <Card className="bg-costa-light-blue/10 border-costa-coral/30 shadow-md backdrop-blur-sm">
+            <CardContent className="p-6">
+              <div className="grid md:grid-cols-2 gap-8">
+                <div>
+                  <h3 className="text-xl font-bold mb-4 text-white">Alternative Acquisition Options</h3>
+                  <p className="text-white/90 mb-4">
+                    If you'd like to acquire this domain through GoDaddy or another platform, reach out to us, and we'll make it happen.
+                  </p>
+                  
+                  <div className="flex items-center mt-4 mb-6">
+                    <img 
+                      src="https://upload.wikimedia.org/wikipedia/commons/f/f5/GoDaddy-Logo.svg"
+                      alt="GoDaddy Logo" 
+                      className="h-6 mr-3 bg-white p-1 rounded"
+                    />
+                    <span className="text-white/80 text-sm italic">
+                      All trademarks, logos, and brand names are the property of their respective owners. 
+                      Use of these does not imply endorsement or affiliation.
+                    </span>
+                  </div>
+                </div>
+                
+                <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
+                  <div className="flex items-start">
+                    <Check className="mr-3 h-5 w-5 text-costa-coral mt-1 flex-shrink-0" />
+                    <p className="text-white font-medium">Free transfer</p>
+                  </div>
+                  <div className="flex items-start">
+                    <ShieldCheck className="mr-3 h-5 w-5 text-costa-coral mt-1 flex-shrink-0" />
+                    <p className="text-white font-medium">Free support</p>
+                  </div>
+                  <div className="flex items-start">
+                    <CreditCard className="mr-3 h-5 w-5 text-costa-coral mt-1 flex-shrink-0" />
+                    <p className="text-white font-medium">Secure payments</p>
+                  </div>
+                  <div className="flex items-start">
+                    <Zap className="mr-3 h-5 w-5 text-costa-coral mt-1 flex-shrink-0" />
+                    <p className="text-white font-medium">Fast delivery</p>
+                  </div>
+                </div>
+              </div>
+            </CardContent>
+          </Card>
         </div>
         
         <div className="border-t border-white/20 mt-8 pt-8 flex flex-col md:flex-row justify-between items-center">
