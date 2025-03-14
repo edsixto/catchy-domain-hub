@@ -52,14 +52,23 @@ const Footer = () => {
           <Card className="bg-costa-blue shadow-lg border-2 border-gray-700">
             <CardContent className="p-6">
               <div className="flex items-start mb-6">
-                <div className="flex-shrink-0 bg-white p-2 rounded shadow-md mr-4">
-                  <img 
-                    src="/lovable-uploads/96ed968b-33ea-4b21-9f26-df356e71ee6d.png"
-                    alt="GoDaddy Logo" 
-                    className="h-8 w-auto"
-                  />
+                <div className="flex-shrink-0 flex flex-col space-y-4">
+                  <div className="bg-white p-2 rounded shadow-md">
+                    <img 
+                      src="/lovable-uploads/96ed968b-33ea-4b21-9f26-df356e71ee6d.png"
+                      alt="GoDaddy Logo" 
+                      className="h-8 w-auto"
+                    />
+                  </div>
+                  <div className="bg-white p-2 rounded shadow-md">
+                    <img 
+                      src="/lovable-uploads/3b2a8d75-2a1f-4b9a-a5b0-b255febf06d5.png"
+                      alt="Escrow.com Logo" 
+                      className="h-8 w-auto"
+                    />
+                  </div>
                 </div>
-                <div>
+                <div className="ml-4">
                   <h3 className="text-xl font-bold mb-2 text-white">Alternative Acquisition Options</h3>
                   <p className="text-white font-medium mb-4">
                     If you'd like to acquire this domain through GoDaddy or another platform, reach out to us, and we'll make it happen.
