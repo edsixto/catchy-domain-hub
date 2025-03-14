@@ -84,8 +84,8 @@ const ContactSection = () => {
           
           <div className="mt-12 text-center animate-fade-in" style={{ animationDelay: '0.4s' }}>
             <p className="text-gray-600 mb-4">Prefer to talk directly?</p>
-            <a href="mailto:info@costahouses.com" className="text-costa-blue font-semibold hover:underline text-lg">
-              info@costahouses.com
+            <a href="mailto:domainnametrust@gmail.com" className="text-costa-blue font-semibold hover:underline text-lg">
+              domainnametrust@gmail.com
             </a>
           </div>
         </div>

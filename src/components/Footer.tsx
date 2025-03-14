@@ -37,10 +37,10 @@ const Footer = () => {
             <h3 className="text-xl font-bold mb-4">Contact</h3>
             <ul className="space-y-2">
               <li className="text-white/80">
-                <span className="font-medium">Email:</span> info@costahouses.com
+                <span className="font-medium">Email:</span> domainnametrust@gmail.com
               </li>
               <li className="text-white/80">
-                <span className="font-medium">Support:</span> support@costahouses.com
+                <span className="font-medium">Support:</span> domainnametrust@gmail.com
               </li>
             </ul>
           </div>
