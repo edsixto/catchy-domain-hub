@@ -54,7 +54,7 @@ const Footer = () => {
               <div className="flex items-start mb-6">
                 <div className="flex-shrink-0 bg-white p-2 rounded shadow-md mr-4">
                   <img 
-                    src="/lovable-uploads/f3224bf9-0c45-4b33-9db3-8fae246b048e.png"
+                    src="/lovable-uploads/96ed968b-33ea-4b21-9f26-df356e71ee6d.png"
                     alt="GoDaddy Logo" 
                     className="h-8 w-auto"
                   />

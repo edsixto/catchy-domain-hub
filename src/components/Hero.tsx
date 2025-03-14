@@ -33,7 +33,7 @@ const Hero = () => {
               </div>
               <div className="flex items-center">
                 <img 
-                  src="https://companieslogo.com/img/orig/GDDY-c88e1201.png?t=1633218319"
+                  src="/lovable-uploads/96ed968b-33ea-4b21-9f26-df356e71ee6d.png"
                   alt="GoDaddy Logo" 
                   className="h-7 w-auto"
                 />
