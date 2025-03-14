@@ -54,11 +54,11 @@ const Hero = () => {
           </div>
           
           <h1 className="text-center md:text-left mb-6 font-bold text-costa-blue text-4xl md:text-5xl lg:text-6xl">
-            Stand Out in the Real Estate Industry!
+            Elevate Your Brand and Get Noticed!
           </h1>
           
           <h2 className="text-center md:text-left text-xl md:text-2xl lg:text-3xl font-medium text-gray-700 max-w-3xl">
-            CostaHouses.com can give you an instantly recognizable brand to attract and engage your target audience.
+            CostaHouses.com provides a memorable brand that instantly attracts and engages your target audience.
           </h2>
         </div>
         
