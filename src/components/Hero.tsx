@@ -11,8 +11,8 @@ const Hero = () => {
                       bg-cover bg-center opacity-10 z-0"></div>
       <div className="container mx-auto px-4 relative z-10">
         <div className="flex flex-col items-center md:items-start mb-10 animate-fade-in">
-          {/* Combined button and logos as a single element */}
-          <div className="bg-white/95 rounded-lg shadow-lg p-4 mb-8">
+          {/* Top Box Component - Centered on both mobile and desktop */}
+          <div className="bg-white/95 rounded-lg shadow-lg p-4 mb-8 w-full">
             <Button 
               size="lg" 
               className="bg-costa-blue hover:bg-costa-blue/90 text-white rounded-full shadow-lg mb-4 w-full"
@@ -41,7 +41,7 @@ const Hero = () => {
                     className="h-7 w-auto"
                   />
                 </div>
-                {/* New Escrow.com logo third */}
+                {/* Escrow.com logo third */}
                 <div className="flex items-center">
                   <img 
                     src="/lovable-uploads/562bfb97-b35a-45d6-8115-bb08ea2db704.png"
